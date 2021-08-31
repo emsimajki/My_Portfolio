@@ -17,6 +17,7 @@ body {
     background: linear-gradient(to right top, var(--dark), var(--green));
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 
 .container {
@@ -26,10 +27,21 @@ body {
     background: linear-gradient(to right top, rgb(0, 0, 0, 0.75), rgb(0, 0, 0, 0.25));
     border-radius: 20px;
     position: relative;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 
 }
 
 .background_img {
     position: absolute;
+    top:0;
+    right:60%;
+    height: 30vh;
+    animation: slideDown 9s linear infinite;
 
+}
+
+@keyframes slideDown {
+    from {transform:translateY(-30vh)}
+    to {transform:translateY(100vh)}
 }
