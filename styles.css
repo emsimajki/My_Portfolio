@@ -58,7 +58,12 @@ body {
     left: 0;
     top: 30%;
     height: 12.5vh;
-    transform: translateY(0);
+
+}
+.bg_--reactimg {
+    left: 3.9vw;
+    top: 45%;
+    height: 20vh;
 
 }
 
