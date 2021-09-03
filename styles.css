@@ -23,8 +23,8 @@ body {
 }
 
 .container {
-    width: 66%;
-    height: 66%;
+    width: 1200px;
+    height: 80vh;
     padding: 32px 92px;
     background: rgb(0, 0, 0, 0.75);
     background: linear-gradient(to right top, rgb(0, 0, 0, 0.75), rgb(0, 0, 0, 0.25));
@@ -32,6 +32,7 @@ body {
     position: relative;
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(4px);
+    overflow: auto;
 
 }
 
